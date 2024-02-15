@@ -11,7 +11,7 @@ describe('MainContent', () => {
     expect(screen.getByRole('button')).toBeInTheDocument();
   });
 
-// Adding some more more comments
+// Adding skipped comments
 
   it('should show the help area after clicking the button', async () => {
     render(<MainContent />);
